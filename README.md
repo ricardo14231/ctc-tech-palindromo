@@ -5,9 +5,7 @@
 
 Projeto desenvolvido para avaliação de conhecimento da empresa CTC TECH.   
 Consiste em uma busca por palavras ou frases Palíndromo.   
-É possível informar se a buscar deve considerar as palvaras Case Insensite ou se deve considerar os espações em branco.   
-
-OBS.: caso queira levar em consideração os espações em branco, eles vão consister da avaliação se é palíndromo.
+É possível informar se a buscar deve considerar as palavras Case-Insensitive ou se deve considerar os espaços em branco.   
 
 ## Pré-requisitos para executar o projeto:
 
@@ -24,9 +22,10 @@ Abra o projeto em uma IDE.
 execute a classe "PalindromoMain" do pacote com.ricardofarias.ctc.main   `
 
 
-## Modelo para adicionar uma palavra para busca.
+## EXEMPLO Modelo para adicionar uma palavra para busca.
 
-Para adicionar uma nova palavra ou as opções de case insensitive / ignora espaço em braco, adicione um objeto com o modelo a seguir:   
+Para adicionar uma nova palavra ou as opções de case-insensitive / ignora espaço em branco, adicione um objeto com o modelo a seguir:   
+OBS.: caso considere os espaços em branco, o algoritmo os leva em consideração para avaliar se é palíndromo.   
 ``` Objeto (builder)   
 Palindromo palindromo3 = new Palindromo
                 .PalindromoBuilder()
