@@ -1,5 +1,6 @@
-package com.ricardofarias.ctc;
+package com.ricardofarias.ctc.main;
 
+import com.ricardofarias.ctc.Palindromo;
 import com.ricardofarias.ctc.enums.CaseSensetive;
 import com.ricardofarias.ctc.enums.IgnorarEspacoBranco;
 
